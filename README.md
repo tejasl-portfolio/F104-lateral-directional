@@ -128,7 +128,7 @@ With state **x** = [β p r φ]ᵀ and input **u** = [ξ ζ]ᵀ (radians), output
 
 $$\dot{\mathbf x} = A\mathbf x + B\mathbf u,\qquad
 A=\begin{bmatrix}
-y_v & \sin\theta_e & -\cos\theta_e & \dfrac{g\cos\theta_e}{V_e}\\[4pt]
+y_v & \sin\theta_e & -\cos\theta_e & \dfrac{g\cos\theta_e}{V_e}\\
 l_\beta & l_p & l_r & 0\\
 n_\beta & n_p & n_r & 0\\
 0 & 1 & \tan\theta_e & 0
