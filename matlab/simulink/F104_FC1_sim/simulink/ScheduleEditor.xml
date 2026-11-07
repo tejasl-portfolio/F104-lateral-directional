@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sltp_editor version="1.1" packageUris="http://schema.mathworks.com/mf0/DiagramEditor/R2019a_20181107 http://schema.mathworks.com/mf0/SltpSyntax/R2025a_202406271400">
+  <sltp.mm.syntax.Context type="sltp.mm.syntax.Context" uuid="8e6eef8b-17a3-44c6-9bed-714b98984b77">
+    <rootGraph type="sltp.mm.syntax.Graph" uuid="59a11c12-7b3b-4f74-bdb3-f5a1634dca00">
+      <children type="sltp.mm.syntax.Node" uuid="ef821224-1917-4340-a825-1b7a0c501ebd">
+        <priority>40</priority>
+        <rates type="sltp.mm.syntax.RateData">
+          <color>#000000</color>
+          <hasBlocks>true</hasBlocks>
+          <rate>0</rate>
+          <title>Cont</title>
+        </rates>
+        <rates type="sltp.mm.syntax.RateData">
+          <color>#7d7d7d</color>
+          <hasBlocks>true</hasBlocks>
+          <rate>[0, 1]</rate>
+          <title>FiM</title>
+        </rates>
+        <rates type="sltp.mm.syntax.RateData">
+          <color>#ff453a</color>
+          <hasBlocks>true</hasBlocks>
+          <rate>0.1</rate>
+          <title>D1</title>
+        </rates>
+        <rates type="sltp.mm.syntax.RateData">
+          <color>#7d7d7d</color>
+          <hasBlocks>true</hasBlocks>
+          <rate>-2</rate>
+          <title>CV1</title>
+        </rates>
+        <rates type="sltp.mm.syntax.RateData">
+          <color>#7d7d7d</color>
+          <hasBlocks>true</hasBlocks>
+          <rate>[-2, 1]</rate>
+          <title>CV2</title>
+        </rates>
+        <rates type="sltp.mm.syntax.RateData">
+          <color>#7d7d7d</color>
+          <hasBlocks>true</hasBlocks>
+          <rate>[-2, 4]</rate>
+          <title>CV3</title>
+        </rates>
+        <rates type="sltp.mm.syntax.RateData">
+          <color>#7d7d7d</color>
+          <hasBlocks>true</hasBlocks>
+          <rate>[-2, 3]</rate>
+          <title>CV4</title>
+        </rates>
+        <rates type="sltp.mm.syntax.RateData">
+          <color>#7d7d7d</color>
+          <hasBlocks>true</hasBlocks>
+          <rate>[-2, 2]</rate>
+          <title>CV5</title>
+        </rates>
+        <title>Cont</title>
+        <type>base</type>
+        <diagramElement type="diagram.editor.model.Entity" uuid="50c9512e-2071-4676-bfbe-8fd5da2f6d86"/>
+        <subgraph type="sltp.mm.syntax.Graph" uuid="8abb85c0-46a8-4cb8-8aa3-911768b91fcc">
+          <title>Cont</title>
+          <diagramElement type="diagram.editor.model.Diagram" uuid="17200682-98a1-4e3d-8b9c-d2045b8ea817"/>
+        </subgraph>
+      </children>
+      <title>Default</title>
+      <diagramElement type="diagram.editor.model.Diagram" uuid="e45f5a11-0c23-45bd-9914-a3b0061b8977"/>
+    </rootGraph>
+  </sltp.mm.syntax.Context>
+  <diagram.editor.model.Diagram type="diagram.editor.model.Diagram" uuid="e45f5a11-0c23-45bd-9914-a3b0061b8977">
+    <entities type="diagram.editor.model.Entity" uuid="50c9512e-2071-4676-bfbe-8fd5da2f6d86">
+      <position>0,0</position>
+      <size>0,0,0,0</size>
+      <syntaxElement type="sltp.mm.syntax.Node" uuid="ef821224-1917-4340-a825-1b7a0c501ebd"/>
+      <title>Cont</title>
+      <type>base</type>
+      <subDiagram type="diagram.editor.model.Diagram" uuid="17200682-98a1-4e3d-8b9c-d2045b8ea817">
+        <position>0,0</position>
+        <syntaxElement type="sltp.mm.syntax.Graph" uuid="8abb85c0-46a8-4cb8-8aa3-911768b91fcc"/>
+        <title>Cont</title>
+        <type>graph.Graph</type>
+      </subDiagram>
+    </entities>
+    <syntaxElement type="sltp.mm.syntax.Graph" uuid="59a11c12-7b3b-4f74-bdb3-f5a1634dca00"/>
+    <title>Default</title>
+    <type>graph.Graph</type>
+  </diagram.editor.model.Diagram>
+</sltp_editor>

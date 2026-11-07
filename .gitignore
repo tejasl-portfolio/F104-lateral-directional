@@ -1,0 +1,17 @@
+# MATLAB / Simulink
+*.asv
+*.autosave
+*.slxc
+slprj/
+.MATLABDriveTag
+*.mex*
+# Regenerated every run (keep out of git; figures/CSVs in results/ are the curated outputs)
+FC*_results.mat
+# Python
+__pycache__/
+*.pyc
+.venv/
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

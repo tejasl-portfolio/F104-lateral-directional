@@ -1,0 +1,26 @@
+{
+  "ExternalFileReferences":[
+    {
+      "Path":"$bdroot\/Simulation 3D Aircraft",
+      "Reference":"aerolibsim3d\/Simulation 3D Aircraft",
+      "SID":"31",
+      "Type":"LIBRARY_BLOCK"
+    },
+    {
+      "Path":"$bdroot\/Simulation 3D Airliner Pack",
+      "Reference":"aerolibsim3d\/Simulation 3D Airliner Pack",
+      "SID":"30",
+      "Type":"LIBRARY_BLOCK"
+    },
+    {
+      "Path":"$bdroot\/Simulation 3D Scene Configuration",
+      "Reference":"sim3dlib\/Simulation 3D Scene Configuration",
+      "SID":"32",
+      "Type":"LIBRARY_BLOCK"
+    }
+  ],
+  "PreCompExecutionDomainType":"Unset",
+  "SimulinkSubDomainType":"Simulink",
+  "SolverName":"ode45",
+  "_mw_element_name":"GraphicalInterface"
+}
