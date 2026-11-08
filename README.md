@@ -361,7 +361,4 @@ FC2 / FC3 animations for a side-by-side speed comparison.
 ## 12. References
 
 * M. V. Cook, *Flight Dynamics Principles: A Linear Systems Approach to Aircraft Stability and Control*, 2nd ed., Butterworth-Heinemann (source of the equations of motion and the concise derivative form).
-* Team 15 problem statement: `data/team15_problem_statement.pdf` (F-104A derivative data).
-# F104-lateral-directional
-# F104-lateral-directional
-# F104-lateral-directional
+
